@@ -1,0 +1,126 @@
+head,
+body {
+  background-color: #000000;
+  font-family: Courier New;
+  padding: 0;
+  margin: 0;
+}
+
+.zoomIn {
+  background: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #FFFFFF;
+  border-radius: 20% 20% 0% 0%;
+  color: #FFFFFF;
+  width: 4vw;
+  height: 4vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vw;
+  margin-top: 2vw;
+  margin-left: 2vw;
+  position: fixed;
+}
+
+.zoomOut {
+  background: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #FFFFFF;
+  border-radius: 0% 0% 20% 20%;
+  color: #FFFFFF;
+  width: 4vw;
+  height: 4vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vw;
+  position: fixed;
+  margin-top: 6vw;
+  margin-left: 2vw;
+}
+
+.moveButtons {
+  position: fixed;
+  margin-top: 2vw;
+  margin-left: 93vw;
+}
+
+.upArrow {
+  align-items: center;
+  position: fixed;
+  width: 0px;
+  height: 0px;
+  margin-left: 1.5vw;
+  margin-top: -1vw;
+  border: 1vw solid #000000;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: #FFFFFF;
+  border-left-color: transparent;
+}
+
+.downArrow {
+  align-items: center;
+  position: fixed;
+  width: 0px;
+  height: 0px;
+  margin-left: 1.5vw;
+  margin-top: 4vw;
+  border: 1vw solid #000000;
+  border-top-color: #FFFFFF;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+
+.leftArrow {
+  align-items: center;
+  position: fixed;
+  width: 0px;
+  height: 0px;
+  margin-left: -1vw;
+  margin-top: 1.5vw;
+  border: 1vw solid #000000;
+  border-top-color: transparent;
+  border-right-color: #FFFFFF;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+
+.rightArrow {
+  align-items: center;
+  position: fixed;
+  width: 0px;
+  height: 0px;
+  margin-left: 3.85vw;
+  margin-top: 1.5vw;
+  border: 1vw solid #000000;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: #FFFFFF;
+}
+
+.middleButton {
+  align-items: center;
+  position: fixed;
+  justify-content: center;
+  height: 1.9vw;
+  width: 1.9vw;
+  margin-left: 1.5vw;
+  margin-top: 1.5vw;
+  border-radius: 100%;
+  background-color: #FFFFFF;
+}
+
+.error {
+  position: fixed;
+  text-align: left;
+  font-size: max(1.5vw, 10px);
+  margin-left: 2vw;
+  margin-top: 94vh;
+  color: #FFFFFF;
+}
